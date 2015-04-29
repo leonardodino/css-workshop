@@ -1,0 +1,10 @@
+.input-btn__label {
+	margin-top: 10px;
+	color: #595d61;
+	font-size: 1.4rem;
+	letter-spacing: -0.04em;
+}
+
+[type="radio"]:checked + label  {
+	background-color: #0B86FF;
+}
