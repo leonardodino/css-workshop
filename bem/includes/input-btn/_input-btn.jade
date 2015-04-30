@@ -1,1 +1,20 @@
-.input-btn
+label(for="aluguel").input-btn
+	//- element
+	img.input-btn__icon(src="assets/images/icon-alugel.png")
+	//- element
+	p.input-btn__label Aluguel
+input.input-btn__item.input-btn__item--hidden(type="radio", name="negocio", id="#aluguel")
+
+input.input-btn__item.input-btn__item--hidden(type="radio", name="negocio", id="#compra")
+label(for="compra").input-btn
+	//- element
+	img(src="assets/images/icon-compra.png").input-btn__icon
+	//- element
+	p.input-btn__label Compra
+
+input.input-btn__item.input-btn__item--hidden(type="radio", name="negocio", id="#temporada")
+label(for="temporada").input-btn
+	//- element
+	img.input-btn__icon(src="assets/images/icon-temporada.png")
+	//- element
+	p.input-btn__label Temporada

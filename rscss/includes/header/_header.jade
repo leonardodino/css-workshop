@@ -1,0 +1,21 @@
+nav.nav
+	.nav-block
+		.nav-logo
+		ul.nav-list
+			li.nav-listitem
+				a.nav-listitem-link(href="#") Activity
+			li.nav-listitem
+				a.nav-listitem-link(href="#") People
+			li.nav-listitem
+				a.nav-listitem-link(href="#") Groups
+	.nav-block
+		ul.nav-list
+			li.nav-listitem
+				!= partial('./includes/search/_search')
+			li.nav-listitem
+				img(src="assets/images/notifications.png").notifications
+			li.nav-listitem
+				img(src="assets/images/profile.png").profile
+				
+
+

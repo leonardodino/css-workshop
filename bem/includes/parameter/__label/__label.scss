@@ -1,0 +1,16 @@
+.parameter__label {
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: #595d61;
+	&:after {
+		content: "";
+		position: relative;
+		top: 7px;
+		float: right;
+		width: 0; 
+		height: 0; 
+		border-left: 4px solid transparent;
+		border-right: 4px solid transparent;
+		border-top: 4px solid #595d61;
+	}
+}

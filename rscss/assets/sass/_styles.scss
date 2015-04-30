@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+// HEADER
+@import "./includes/header/_header";
+
+// Sidebar
+@import "./includes/sidebar/_sidebar";
+
+// SEARCH
+@import "./includes/search/_search";
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	font-size: 10px;
+}
+
+
+body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: #404560;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+p {
+  color: #8f9faf;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}

@@ -1,0 +1,27 @@
+@import "nav-list/_nav-list";
+
+.nav {
+	display: flex;
+	width: 100%;
+	height: 42px;
+	background: #fff;
+	justify-content: space-between;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.nav-logo {
+	width: 47px;
+	height: 42px;
+	margin-right: 1.875em;
+	background: url('assets/images/logo.png');
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.nav > .nav-block {
+	display: flex;
+	align-items: center;
+
+
+}
+
+
